@@ -1,2 +1,7 @@
 
-logs/latest.log
+logs
+crash-reports
+XaeroWaypoints
+XaeroWaypoints_BACKUP032021
+sl_password.txt
+crafttweaker.log
