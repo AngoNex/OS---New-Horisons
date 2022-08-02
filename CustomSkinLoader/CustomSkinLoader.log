@@ -1,0 +1,57 @@
+[2022-08-02 20:33:02] [Client thread INFO] CustomSkinLoader 14.13
+[2022-08-02 20:33:02] [Client thread INFO] DataDir: C:\Users\boss\AppData\Roaming\.minecraft\versions\OS - New Horisons\CustomSkinLoader
+[2022-08-02 20:33:02] [Client thread INFO] Operating System: Windows 10 (amd64) version 10.0
+[2022-08-02 20:33:02] [Client thread INFO] Java Version: 1.8.0_51, Oracle Corporation
+[2022-08-02 20:33:02] [Client thread INFO] Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+[2022-08-02 20:33:02] [Client thread INFO] Minecraft: null(OS - New Horisons OS - New Horisons)
+[2022-08-02 20:33:02] [Client thread INFO] Config File: C:\Users\boss\AppData\Roaming\.minecraft\versions\OS - New Horisons\CustomSkinLoader\CustomSkinLoader.json
+[2022-08-02 20:33:02] [Client thread INFO] Try to load config.
+[2022-08-02 20:33:02] [Client thread INFO] Successfully load config.
+[2022-08-02 20:33:02] [Client thread INFO] Add a profile loader: MojangAPI
+[2022-08-02 20:33:02] [Client thread INFO] Add a profile loader: Legacy
+[2022-08-02 20:33:02] [Client thread INFO] Add a profile loader: CustomSkinAPI
+[2022-08-02 20:33:02] [Client thread INFO] Add a profile loader: CustomSKinAPIPlus
+[2022-08-02 20:33:02] [Client thread INFO] Add a profile loader: UniSkinAPI
+[2022-08-02 20:33:02] [Client thread INFO] Add a profile loader: ElyByAPI
+[2022-08-02 20:33:02] [Client thread INFO] Add a profile loader: GlitchlessAPI
+[2022-08-02 20:33:02] [Client thread INFO] Successfully update config.
+[2022-08-02 20:33:02] [Client thread INFO] version : 14.13
+[2022-08-02 20:33:02] [Client thread INFO] buildNumber : 319
+[2022-08-02 20:33:02] [Client thread INFO] loadlist : [{ "name": "Mojang", "type": "MojangAPI", "apiRoot": "https://api.mojang.com/", "sessionRoot": "https://sessionserver.mojang.com/" }, { "name": "BlessingSkin", "type": "CustomSkinAPI", "root": "http://skin.prinzeugen.net/" }, { "name": "TLauncher", "type": "ElyByAPI", "root": "https://auth.tlauncher.org/skin/profile/texture/login/" }, { "name": "GlitchlessGames", "type": "GlitchlessAPI", "root": "https://games.glitchless.ru/api/minecraft/users/profiles/textures/?nickname=" }]
+[2022-08-02 20:33:02] [Client thread INFO] enableDynamicSkull : true
+[2022-08-02 20:33:02] [Client thread INFO] enableTransparentSkin : true
+[2022-08-02 20:33:02] [Client thread INFO] forceIgnoreHttpsCertificate : false
+[2022-08-02 20:33:02] [Client thread INFO] forceLoadAllTextures : false
+[2022-08-02 20:33:02] [Client thread INFO] enableCape : true
+[2022-08-02 20:33:02] [Client thread INFO] forceFillSkullNBT : false
+[2022-08-02 20:33:02] [Client thread INFO] threadPoolSize : 3
+[2022-08-02 20:33:02] [Client thread INFO] retryTime : 1
+[2022-08-02 20:33:02] [Client thread INFO] cacheExpiry : 30
+[2022-08-02 20:33:02] [Client thread INFO] forceUpdateSkull : false
+[2022-08-02 20:33:02] [Client thread INFO] enableLocalProfileCache : false
+[2022-08-02 20:33:02] [Client thread INFO] enableCacheAutoClean : false
+[2022-08-02 20:33:02] [Client thread INFO] forceDisableCache : false
+[2022-08-02 20:41:27] [AngoNex INFO] Loading AngoNex's profile.
+[2022-08-02 20:41:27] [AngoNex INFO] 1/4 Try to load profile from 'Mojang'.
+[2022-08-02 20:41:27] [AngoNex DEBUG] Try to request 'https://api.mojang.com/profiles/minecraft'.
+[2022-08-02 20:41:27] [AngoNex INFO] Payload: ["AngoNex"]
+[2022-08-02 20:41:27] [AngoNex DEBUG] Successfully request (Response Code: 200 , Content Length: 60)
+[2022-08-02 20:41:27] [AngoNex DEBUG] Content: [{"id":"caa7756c282649b89046cc395743054c","name":"AngoNex"}]
+[2022-08-02 20:41:27] [AngoNex DEBUG] Try to request 'https://sessionserver.mojang.com/session/minecraft/profile/caa7756c282649b89046cc395743054c'.
+[2022-08-02 20:41:28] [AngoNex DEBUG] Successfully request (Response Code: 200 , Content Length: 583)
+[2022-08-02 20:41:28] [AngoNex DEBUG] Saved to cache (Length: 583 , Path: 'C:\Users\boss\AppData\Roaming\.minecraft\versions\OS - New Horisons\CustomSkinLoader\caches\d7563cb61b52c0dd08c17a2aedb58046f5a9fc7f' , Expire: 1659462179)
+[2022-08-02 20:41:28] [AngoNex DEBUG] Content: {
+  "id" : "caa7756c282649b89046cc395743054c",
+  "name" : "AngoNex",
+  "properties" : [ {
+    "name" : "textures",
+    "value" : "ewogICJ0aW1lc3RhbXAiIDogMTY1OTQ2MjA4NzU5NSwKICAicHJvZmlsZUlkIiA6ICJjYWE3NzU2YzI4MjY0OWI4OTA0NmNjMzk1NzQzMDU0YyIsCiAgInByb2ZpbGVOYW1lIiA6ICJBbmdvTmV4IiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzUxYTU1ZDI5MTAzODNlZTlhZGM1M2ZjMDZmZTdlY2FkZjMyN2IyMjQ2Mzg2MDAzNTMzMjZkMzJkMjI0MTExY2EiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+  } ]
+}
+[2022-08-02 20:41:28] [AngoNex INFO] AngoNex's profile loaded.
+[2022-08-02 20:41:28] [AngoNex INFO] (SkinUrl: http://textures.minecraft.net/texture/51a55d2910383ee9adc53fc06fe7ecadf327b224638600353326d32d224111ca , Model: slim , CapeUrl: null  , Expiry: 1659462118)
+[2022-08-02 20:41:28] [AngoNex DEBUG] Try to request 'http://textures.minecraft.net/texture/51a55d2910383ee9adc53fc06fe7ecadf327b224638600353326d32d224111ca'.
+[2022-08-02 20:41:28] [AngoNex DEBUG] Successfully request (Response Code: 200 , Content Length: 1235)
+[2022-08-02 20:41:28] [AngoNex DEBUG] Saved to cache (Length: 1235 , Path: 'C:\Users\boss\AppData\Roaming\.minecraft\assets\skins\51\51a55d2910383ee9adc53fc06fe7ecadf327b224638600353326d32d224111ca' , Expire: -1)
+[2022-08-02 20:41:28] [Client thread DEBUG] Loading type: SKIN
+[2022-08-02 20:41:28] [Client thread INFO] ThreadDownloadImageData Class: net.minecraft.client.renderer.ThreadDownloadImageData
